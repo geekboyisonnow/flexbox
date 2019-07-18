@@ -29,7 +29,8 @@ body {
   font-weight: bold;
   font-size: 3rem;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid white;
+  outline: rgb(75, 71, 71) solid 2px;
 }
 
 /* .should-be-first {
