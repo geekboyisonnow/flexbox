@@ -16,7 +16,7 @@ body {
   background-color: rebeccapurple;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .flex-item {
