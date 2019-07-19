@@ -17,7 +17,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-content: center;
+  align-content: space-around;
 }
 
 .flex-item {
@@ -43,3 +43,7 @@ body {
 /* .should-be-last {
   order: 1;
 } */
+
+.grow {
+  flex-grow: 2;
+}
