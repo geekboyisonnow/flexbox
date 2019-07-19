@@ -12,15 +12,16 @@ body {
   padding: 0;
   margin: 0;
   list-style: none;
-  height: 75vh;
+  height: 85vh;
   background-color: rebeccapurple;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
 }
 
 .flex-item {
   background: tomato;
   padding: 5px;
+  margin-left: 50px;
   width: 200px;
   height: 150px;
   margin-top: 10px;
