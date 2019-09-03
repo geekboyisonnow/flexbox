@@ -43,7 +43,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .hover:hover {
@@ -89,8 +89,8 @@ header {
 .content {
   width: 45vw;
   height: auto;
-  padding-right: 25px;
-  margin: 0;
+  padding-right: 50px;
+  margin-top: 20px;
 }
 
 .blurb {
