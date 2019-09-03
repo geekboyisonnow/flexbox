@@ -6,36 +6,47 @@
       name="viewport"
       content="width=device-width, initial-scale=1"
     />
-    <title>Flexbox</title>
+    <title>OZK Flexbox</title>
     <link rel="stylesheet" href="/screen.css" />
   </head>
 
   <body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:500,700|Roboto:500,700"
+      rel="stylesheet"
+    />
+    <noscript
+      >You need to enable JavaScript to run this
+      app.</noscript
+    >
+    <div id="root"></div>
     <header class="head">
       <img class="logo" src="photos/bank-ozk-logo.png" />
-      <h1>Your Personal Savings Goals</h1>
+      <h1 class="header-title">
+        Your Personal Savings Goals
+      </h1>
     </header>
     <nav>
-      <ul class="navigation">
-        <li>
+      <div class="navigation">
+        <div class="hover" id="hover">
           Login
-        </li>
-        <li>
+        </div>
+        <div class="hover" id="hover">
           Add New Goals
-        </li>
-        <li>
+        </div>
+        <div class="hover" id="hover">
           Edit My Goals
-        </li>
-        <li>
+        </div>
+        <div class="hover" id="hover">
           Chart My Progress
-        </li>
-        <li>
+        </div>
+        <div class="hover" id="hover">
           The Rainy Day Challenge
-        </li>
-        <li>
+        </div>
+        <div class="hover" id="hover">
           Logout
-        </li>
-      </ul>
+        </div>
+      </div>
     </nav>
     <section>
       <ul class="main-content">
@@ -44,11 +55,11 @@
         </li>
         <li class="">
           <section class="content">
-            <h2 class="landing-title">
+            <h2 class="content-title">
               HERE IS LOREM FOR START-UPS!
             </h2>
             <blockquote>
-              <p>
+              <p class="blurb">
                 Lorem ipsum dolor, sit amet consectetur
                 adipisicing elit. Laboriosam nemo
                 consequuntur provident animi a quaerat neque
@@ -56,7 +67,7 @@
                 tempore consequatur iure magni id tempora
                 blanditiis!
               </p>
-              <p>
+              <p class="blurb">
                 Interaction design user experience long tail
                 business plan stock social proof
                 gamification series A financing scrum

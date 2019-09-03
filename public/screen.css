@@ -8,11 +8,14 @@ body {
   margin: 0;
   min-height: 100%;
   width: auto;
+  /* Figure out body Height */
   display: flex;
   flex-direction: column;
 }
 
 header {
+  height: 13vh;
+  width: auto;
   margin: 0px;
   padding: 0px;
 }
@@ -21,16 +24,36 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  font: 2.2vw 'Quicksand', 'Roboto', 'Helvetica Neue',
+    'Arial', sans-serif;
+  color: white;
+  background-color: red;
 }
 
 .logo {
   width: auto;
-  height: 1%;
-  /* why isn't logo changing height? */
+  height: 13vh;
+  background-color: white;
+  padding-right: 15px;
 }
 
-img {
-  width: 40px;
+.header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.hover:hover {
+  background-color: #2d8079;
+  margin: 0;
+  padding: 0;
+  font: 4vh 'Quicksand', 'Roboto', 'Helvetica Neue', 'Arial',
+    sans-serif;
+  color: black;
+  height: 9vh;
 }
 
 .navigation {
@@ -38,6 +61,12 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+  font: 4vh 'Quicksand', 'Roboto', 'Helvetica Neue', 'Arial',
+    sans-serif;
+  color: white;
+  background-color: black;
+  height: 9vh;
 }
 
 .main-content {
@@ -45,29 +74,43 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  height: 68vh;
 }
 
 .plant {
-  width: 45vw;
-  height: auto;
-}
-
-.content {
-  width: 45vw;
+  width: 50vw;
   height: auto;
   padding: 0;
   margin: 0;
 }
 
-.landing-title {
+.content {
+  width: 45vw;
+  height: auto;
+  padding-right: 25px;
+  margin: 0;
+}
+
+.blurb {
+  font: 1.5vw 'Quicksand', 'Roboto', 'Helvetica Neue',
+    'Arial', sans-serif;
+}
+
+.content-title {
   display: flex;
   justify-content: center;
+  font: 2.8vw 'Quicksand', 'Roboto', 'Helvetica Neue',
+    'Arial', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 footer {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   color: white;
   background-color: black;
   height: 10vh;
