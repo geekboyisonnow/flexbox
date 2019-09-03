@@ -1,18 +1,20 @@
 html {
   height: 100%;
+  width: 100%;
   font: 16px / 1 sans-serif;
 }
 
 body {
   margin: 0;
   min-height: 100%;
+  width: auto;
   display: flex;
   flex-direction: column;
 }
 
 header {
-  margin: 20px;
-  padding: 20px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .head {
@@ -23,48 +25,8 @@ header {
 
 .logo {
   width: auto;
-  height: 100%;
-}
-
-/* .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  height: 75vh;
-  background-color: black;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: space-around;
-  align-items: center;
-} */
-
-/* .flex-item {
-  background: red;
-  padding: 5px;
-  /* margin-left: 50px; */
-  width: 40px;
-  height: 55px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3rem;
-  text-align: center;
-  border: 2px solid white;
-  outline: rgb(75, 71, 71) solid 2px;
-} */
-
-/* .should-be-first {
-  order: -1;
-} */
-
-/* .should-be-last {
-  order: 1;
-} */
-
-.grow {
-  flex-grow: 2;
+  height: 1%;
+  /* why isn't logo changing height? */
 }
 
 img {
@@ -86,12 +48,27 @@ img {
 }
 
 .plant {
-  width: 50vw;
+  width: 45vw;
   height: auto;
 }
 
 .content {
-  width: 50vw;
+  width: 45vw;
   height: auto;
+  padding: 0;
+  margin: 0;
 }
 
+.landing-title {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  background-color: black;
+  height: 10vh;
+}
