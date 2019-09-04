@@ -25,9 +25,9 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-right: 60px;
-  font: 2vw 'Quicksand', 'Roboto', 'Helvetica Neue', 'Arial',
-    sans-serif;
+  padding-right: 150px;
+  font: 1.9vw 'Quicksand', 'Roboto', 'Helvetica Neue',
+    'Arial', sans-serif;
   color: white;
   background-color: red;
 }
@@ -41,9 +41,9 @@ header {
 
 .header-title {
   display: flex;
-  justify-content: center;
   align-items: center;
   padding-bottom: 5px;
+  margin-right: 75px;
 }
 
 a {
@@ -54,7 +54,7 @@ a {
 #hover:hover {
   background-color: #2d8079;
   margin: 0;
-  padding: 0 4vh;
+  padding: 0 6vh;
 }
 
 .button {
@@ -64,7 +64,7 @@ a {
   background-color: black;
   text-decoration: none;
   margin: 0;
-  padding: 0 4vh;
+  padding: 0 6vh;
   min-height: 8vh;
   line-height: 8vh;
 }
@@ -74,10 +74,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
-  font: 3vh 'Quicksand', 'Roboto', 'Helvetica Neue', 'Arial',
-    sans-serif;
-  color: white;
   background-color: black;
   margin: 0;
 }
@@ -100,29 +96,23 @@ a {
 }
 
 .content {
-  width: 45vw;
+  width: 50vw;
   height: auto;
-  /* padding-right: 25px; */
-  margin-top: 25px;
-  margin-right: 25px;
-}
-
-.blurb {
-  font: 1.5vw 'Quicksand', 'Roboto', 'Helvetica Neue',
-    'Arial', sans-serif;
-}
-
-blockquote {
-  padding-top: 5px;
+  margin-top: 30px;
 }
 
 .content-title {
   display: flex;
   justify-content: center;
-  font: 2.6vw 'Quicksand', 'Roboto', 'Helvetica Neue',
-    'Arial', sans-serif;
+  font: 2vw 'Quicksand', 'Roboto', 'Helvetica Neue', 'Arial',
+    sans-serif;
   padding: 0;
   margin: 0;
+}
+
+.blurb {
+  font: 1.6vw 'Quicksand', 'Roboto', 'Helvetica Neue',
+    'Arial', sans-serif;
 }
 
 footer {
