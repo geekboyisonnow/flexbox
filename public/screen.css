@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  height: 13vh;
+  height: 10vh;
   width: auto;
   margin: 0px;
   padding: 0px;
@@ -25,16 +25,16 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-right: 20px;
-  font: 2.2vw 'Quicksand', 'Roboto', 'Helvetica Neue',
-    'Arial', sans-serif;
+  padding-right: 60px;
+  font: 2vw 'Quicksand', 'Roboto', 'Helvetica Neue', 'Arial',
+    sans-serif;
   color: white;
   background-color: red;
 }
 
 .logo {
   width: auto;
-  height: 13vh;
+  height: 10vh;
   background-color: white;
   padding-right: 15px;
 }
@@ -58,15 +58,15 @@ a {
 }
 
 .button {
-  font: 4vh 'Quicksand', 'Roboto', 'Helvetica Neue', 'Arial',
+  font: 3vh 'Quicksand', 'Roboto', 'Helvetica Neue', 'Arial',
     sans-serif;
   color: white;
   background-color: black;
   text-decoration: none;
   margin: 0;
   padding: 0 4vh;
-  min-height: 9vh;
-  line-height: 9vh;
+  min-height: 8vh;
+  line-height: 8vh;
 }
 
 .navigation {
@@ -75,7 +75,7 @@ a {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  font: 4vh 'Quicksand', 'Roboto', 'Helvetica Neue', 'Arial',
+  font: 3vh 'Quicksand', 'Roboto', 'Helvetica Neue', 'Arial',
     sans-serif;
   color: white;
   background-color: black;
@@ -89,7 +89,7 @@ a {
   justify-content: space-between;
   padding: 0;
   margin: 0;
-  height: 68vh;
+  height: 74vh;
 }
 
 .plant {
@@ -102,13 +102,18 @@ a {
 .content {
   width: 45vw;
   height: auto;
-  padding-right: 50px;
-  margin-top: 20px;
+  /* padding-right: 25px; */
+  margin-top: 25px;
+  margin-right: 25px;
 }
 
 .blurb {
   font: 1.5vw 'Quicksand', 'Roboto', 'Helvetica Neue',
     'Arial', sans-serif;
+}
+
+blockquote {
+  padding-top: 5px;
 }
 
 .content-title {
@@ -126,5 +131,5 @@ footer {
   align-items: center;
   color: white;
   background-color: black;
-  height: 10vh;
+  height: 8vh;
 }
