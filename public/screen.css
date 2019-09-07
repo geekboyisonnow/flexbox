@@ -156,7 +156,6 @@ li {
     'Arial', sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: left;
 }
 
 .title {
